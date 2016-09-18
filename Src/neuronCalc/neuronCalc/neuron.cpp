@@ -1,20 +1,15 @@
+#include "stdafx.h"
 #include "neuron.h"
 #include<math.h>
 
-
-neuron::neuron(int inputLayerSize, double sigmoidGain)
+neuron::neuron()
 {
-	/*コンストラクタ*/
-	size = inputLayerSize;
-	gain = sigmoidGain;
 	sum = 0.0;
 	q = 0.0;
-	for (int i = 0; i < size; i++) {
+	for (int i = 0; i < 1024; i++) {
 		weight[i] = 1.0;
 	}
 }
-
-
 neuron::~neuron()
 {
 }
@@ -24,6 +19,14 @@ double neuron::sigmoid(double gain, double x)
 	return 1.0 / (1.0 + exp(-gain * x));
 }
 /*public*/
+void neuron::setInputLayerSize(int size) {
+	inputLayerSize = size;
+	return;
+}
+void neuron::setSigmoidGain(double gain) {
+	sigmoidGain = gain;
+	return;
+}
 void neuron::reset() {
 	sum = 0;
 	return;
@@ -34,7 +37,7 @@ void neuron::input(int inputFrom, double u)
 	return;
 }
 void neuron::calc() {
-	q = sigmoid(gain, sum);
+	q = sigmoid(sigmoidGain, sum);
 	return;
 }
 double neuron::output()

@@ -1,5 +1,8 @@
 ﻿  stdafx.cpp
   neuronCalc.cpp
   neuron.cpp
-c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuron.cpp(44): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuron.cpp(7): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuron.cpp(36): warning C4244: '+=': 'double' から 'int' への変換です。データが失われる可能性があります。
   コードを生成中...
+  neuronCalc.vcxproj -> C:\Users\ariho\Source\Repos\neuronCalc\Src\neuronCalc\Debug\neuronCalc.exe
+  neuronCalc.vcxproj -> C:\Users\ariho\Source\Repos\neuronCalc\Src\neuronCalc\Debug\neuronCalc.pdb (Full PDB)
