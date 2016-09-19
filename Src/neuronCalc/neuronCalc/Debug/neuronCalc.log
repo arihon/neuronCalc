@@ -1,8 +1,8 @@
-﻿  stdafx.cpp
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : パス 'c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\debug\neuroncalc.exe' へのアクセスが拒否されました。
+  stdafx.cpp
   neuronCalc.cpp
+c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuroncalc.cpp(22): warning C4244: '=': 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
   neuron.cpp
-c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuron.cpp(7): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
-c:\users\ariho\source\repos\neuroncalc\src\neuroncalc\neuroncalc\neuron.cpp(36): warning C4244: '+=': 'double' から 'int' への変換です。データが失われる可能性があります。
   コードを生成中...
   neuronCalc.vcxproj -> C:\Users\ariho\Source\Repos\neuronCalc\Src\neuronCalc\Debug\neuronCalc.exe
   neuronCalc.vcxproj -> C:\Users\ariho\Source\Repos\neuronCalc\Src\neuronCalc\Debug\neuronCalc.pdb (Full PDB)
